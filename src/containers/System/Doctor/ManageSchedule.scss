@@ -1,0 +1,14 @@
+.manage-schedule-container {
+  .m-s-title {
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .pick-hour-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

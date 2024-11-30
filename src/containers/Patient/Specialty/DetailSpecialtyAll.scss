@@ -1,0 +1,46 @@
+.detail-specialty-container {
+  .detail-specialty-all-body {
+    margin: 1% 10%;
+    display: flex;
+
+    flex-direction: column;
+
+    .detail-specialty-child {
+      background: #eae8e8;
+      display: flex;
+      gap: 1rem;
+      padding: 1% 2%;
+      margin: 1rem;
+      cursor: pointer;
+      .left {
+        width: 25%;
+        height: 100%;
+        padding: 1% 2%;
+        margin: 1rem;
+        text-align: center;
+
+        //
+        background-color: #f1ecec;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+
+        align-items: center;
+        text-align: center;
+
+        .bg-image-specialty {
+          background: center center no-repeat;
+          background-size: contain;
+          height: 10rem;
+        }
+      }
+      .right {
+        width: 80%;
+        height: 100%;
+        padding: 1% 2%;
+        margin: 1rem;
+        min-height: 1rem;
+      }
+    }
+  }
+}

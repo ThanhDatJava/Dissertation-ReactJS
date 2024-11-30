@@ -1,0 +1,68 @@
+.manage-patient-container {
+  .table-manage-patient {
+    min-height: 30rem;
+    // Đảm bảo bảng có một đường viền và có một khoảng cách nhỏ giữa các ô
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+
+      // Đặt màu nền cho các tiêu đề
+      th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+      }
+
+      // Hiệu ứng hover cho các hàng trong tbody
+      tbody tr {
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+
+      // Khi hover vào một hàng tr
+      tbody tr:hover {
+        background-color: #dad5d5; // Màu nền khi hover
+        // transform: scale(1.02); // Tăng nhẹ kích thước của hàng khi hover
+        cursor: pointer;
+      }
+
+      // Thay đổi màu chữ trong các ô (td) khi hover vào hàng (tr)
+      tbody tr:hover td {
+        color: #007bff; // Đổi màu chữ khi hover vào hàng
+      }
+    }
+
+    // Hiệu ứng cho phân trang
+    .pagination {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        margin: 0 10px;
+        padding: 8px 15px;
+        border: none;
+        background-color: #28a745;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: red; // Màu nền khi hover vào nút
+        }
+
+        &:disabled {
+          background-color: #6c757d; // Màu nút khi bị vô hiệu hóa
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}

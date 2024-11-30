@@ -1,0 +1,176 @@
+.slick-prev {
+  left: -15px !important;
+  z-index: 1000 !important;
+  height: 40px !important;
+  width: 40px !important;
+  background: #fff !important;
+  border: 2px solid #d7d7d7 !important;
+  border-radius: 10px;
+  &:hover {
+    background: #d7d7d7 !important;
+  }
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: FontAwesome !important;
+  color: red !important;
+  // content: "\f060" !important;
+}
+.slick-next {
+  right: -10px !important;
+  z-index: 1000 !important;
+  height: 40px !important;
+  width: 40px !important;
+  background: #fff !important;
+  border: 2px solid #d7d7d7 !important;
+  border-radius: 10px;
+  &:hover {
+    background: #e6e5e5 !important;
+  }
+}
+
+.slick-disabled {
+  display: none !important;
+}
+///
+
+.section-share {
+  background: #ecebeb;
+
+  max-height: 25rem;
+  margin-top: 3rem;
+  .section-container {
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0;
+
+    .section-header {
+      padding-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+
+      .title-section {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .btn-section {
+        padding: 10px 14px;
+        border: none;
+        outline: none;
+        background: #ebebeb;
+        color: black;
+        cursor: pointer;
+        border-radius: 10px;
+
+        transition: 0.8s;
+        &:hover {
+          color: #f80303;
+          background: #f7d800;
+        }
+      }
+    }
+    .section-body {
+      .section-customize {
+        padding: 1rem;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        .bg-image {
+          background: center center no-repeat;
+          background-size: contain;
+
+          &.section-specialty-img {
+            width: 250px;
+            height: 150px;
+            border-radius: 50px;
+          }
+          &.section-medical-facility-img {
+            background-image: url("../../assets/medical-facility/co-so-y-te.png");
+            width: 150px;
+            height: 150px;
+          }
+          &.section-outStanding-doctor-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+          }
+          &.section-handbook-img {
+            background-image: url("../../assets/handbook/cam-nan.png");
+            width: 250px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.customize-boder {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding-bottom: 5px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.section-about {
+  min-height: 40rem;
+  padding-bottom: 2rem;
+  .section-about-header {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .section-about-content {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    .content-left {
+      width: 50%;
+    }
+    .content-right {
+      width: 50%;
+      p {
+        text-align: justify;
+        font-size: 16px; /* You can specify a specific size in pixels, ems, rems, etc. */
+        font-family: Arial, sans-serif; /* Specifies the font family */
+        line-height: 1.5; /* Sets the line height to 1.5 times the font size */
+        color: #333; /* Sets the text color to a dark shade of gray */
+        padding: 0 15px;
+      }
+    }
+  }
+}
+
+.home-footer {
+  background: #12a0e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  a {
+    text-decoration: none; // Sử dụng `none` thay vì `unset` cho sự rõ ràng
+    color: #000;
+
+    &:hover {
+      color: #f80303;
+    }
+  }
+}

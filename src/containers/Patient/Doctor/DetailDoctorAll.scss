@@ -1,0 +1,40 @@
+.detail-doctor-container {
+  .detail-doctor-all-body {
+    margin: 1% 10%;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .detail-doctor-child {
+      width: 30%;
+      background: #d2d0d0;
+      display: flex;
+
+      gap: 1rem;
+      padding: 1% 2%;
+      margin: 1rem;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s, box-shadow 0.3s;
+      .left {
+        width: 50%;
+        height: 100%;
+
+        margin: 1rem 0;
+
+        .bg-image-doctor {
+          background: center center no-repeat;
+          background-size: contain;
+          height: 8rem;
+          border-radius: 100%;
+        }
+      }
+      .right {
+        width: 90%;
+        height: 100%;
+        padding: 2% 2%;
+      }
+    }
+  }
+}

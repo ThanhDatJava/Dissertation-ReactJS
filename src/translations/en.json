@@ -1,0 +1,128 @@
+{
+  "homeheader": {
+    "speciality": "Medical speciality",
+    "searchdoctor": "Find doctors by specialty",
+    "health-facility": "Health facilities",
+    "select-room": "Choose a hospital or clinic",
+    "doctor": "Doctor",
+    "select-doctor": "Choose a good doctor",
+    "Handbook": "Handbook",
+    "general-health-check": "First aid knowledge",
+    "Support": "Support",
+    "welcome": "Welcome"
+  },
+  "banner": {
+    "medical-foundation": "MEDICAL FOUNDATION",
+    "comprehensive-health-care": "COMPREHENSIVE HEALTH CARE",
+    "find-medical-specialist": "Find a medical specialist",
+    "specialized-examination": "Specialized examination",
+    "remote-examination": "Remote examination",
+    "general-examination": "General examination",
+    "medical-tests": "Medical tests",
+    "spiritual-health": "Spiritual health",
+    "dental-examination": "Dental examination"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "Users System",
+      "manage-doctor": "Manage doctors",
+      "manage-admin": "Manage admins",
+      "crud": "CRUD user",
+      "crud-redux": "Manage user",
+      "clinic": "Clinisc",
+      "manage-clinic": "Manage Clinics",
+      "specialty": "Specialties",
+      "manage-specialty": "Manage Specialties",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage Handbook"
+    },
+    "doctor": {
+      "manage-schedule": "Manage medical appointments",
+      "manage-patient": "Manage Doctor's patient",
+      "manage-medical-records": "Medical Record Management"
+    }
+  },
+  "manage-user": {
+    "add": "Add a new user",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Role",
+    "image": "Avatar",
+    "save": "Save user",
+    "edit": "Save changes "
+  },
+  "homepage": {
+    "outstanding-doctor": "Excellent doctor",
+    "see-more": "See more",
+    "popular-specialties": "Popular Specialties"
+  },
+  "manage-schedule": {
+    "title": "Managing doctors' appointments",
+    "choose-doctor": "Choose doctor",
+    "choose-date": "Choose date",
+    "save": "Save information"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Schedule",
+      "no-schedule": "The doctor does not have an appointment during this time, please select another time !",
+      "choose": "Choose",
+      "book-free": "and book (free)"
+    },
+    "extra-infor-doctor": {
+      "text-address": "EXAMINATION ADDRESS :",
+      "examination-prices": "Examination Prices :",
+      "text-payment": "Patients can pay expenses in the form of : ",
+      "view-detail": "View Detail",
+      "collapse": "Collapse"
+    },
+    "booking-modal": {
+      "title": "Information on ordering a medical examination",
+      "full-name": "Full Name :",
+      "email": "Email address :",
+      "reason": "Reason for medical examination :",
+      "phone-number": "Phone number :",
+      "address": "Contact :",
+      "birthday": "Birthday :",
+      "gender": "Gender :",
+      "confirm": "Confirm",
+      "cancel": "cancel",
+      "free-booking": "(Free booking)"
+    },
+    "letter-booking": {
+      "title": "CONFIRMATION LETTER FROM BOOKING DOCTOR!",
+      "p1": "We sincerely thank you for choosing BookingDoctor's service to meet your medical needs. Your trust and support are the greatest motivation for us to constantly improve and develop.",
+      "p2": "At Booking Doctor, we are always committed to providing the highest quality service to ensure you have the best experience. We are delighted to know that our service has met your expectations.",
+      "p3": "If you have any questions, comments or feedback, please contact us via email bookingdoctor.com or phone number 0705010562. We are always ready to listen and support you.",
+      "p4": "Once again, thank you for your trust and support. We look forward to serving you in the future and wish you health and happiness!"
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Create more doctor information",
+      "choose-doctor": "Choose a doctor ",
+      "about-us": "About us ",
+      "btn-create-infor": "Create information",
+      "btn-save-infor": "Save Information",
+      "choose-price": "Choose a price  ",
+      "choose-payment": "Choose a payment method  ",
+      "choose-province": "Choose a province  ",
+      "clinic-name": "Clinic name ",
+      "clinic-address": "Clinic address ",
+      "note": "Note ",
+      "choose-speciality": "Choose a speciality ",
+      "choose-clinic": "Choose a clinic"
+    }
+  },
+  "detail-doctor": {
+    "full-name": "Full Name : ",
+    "hometown": "Hometown : ",
+    "title": "Title : "
+  }
+}

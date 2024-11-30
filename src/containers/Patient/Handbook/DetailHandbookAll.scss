@@ -1,0 +1,43 @@
+.detail-handbook-container {
+  .detail-handbook-all-body {
+    margin: 1% 10%;
+    display: flex;
+    flex-direction: column;
+    .detail-handbook-child {
+      background: #eae8e8;
+      display: flex;
+      gap: 1rem;
+      padding: 1% 2%;
+      margin: 1rem;
+      cursor: pointer;
+      .left {
+        width: 25%;
+        height: 100%;
+        margin: 1rem 0;
+        padding: 1% 2%;
+        border-radius: 1rem;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, box-shadow 0.3s;
+        .bg-image-handbook {
+          background: center center no-repeat;
+          background-size: contain;
+          height: 10rem;
+        }
+      }
+      .right {
+        width: 75%;
+        height: 100%;
+        padding: 2% 2%;
+
+        max-height: 20rem;
+        overflow: scroll;
+        p {
+          img {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+}

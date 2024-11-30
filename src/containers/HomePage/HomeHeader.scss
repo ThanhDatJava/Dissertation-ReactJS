@@ -1,0 +1,224 @@
+.home-header-container {
+  min-height: 7rem;
+  width: 100%;
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+
+  .home-header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .left-content {
+      width: 20%;
+      align-items: center;
+      display: flex;
+
+      .header-logo {
+        cursor: pointer;
+
+        transform: scale(0.5) translateX(-80px);
+        transition: transform 0.3s ease, box-shadow 0.3s ease; // Thêm hiệu ứng chuyển tiếp cho transform và box-shadow
+
+        // Hiệu ứng khi hover
+        &:hover {
+          transform: scale(0.51) translateX(-70px); // Tăng kích thước và điều chỉnh vị trí khi hover
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); // Thêm hiệu ứng đổ bóng khi hover
+        }
+
+        // Hiệu ứng khi click
+        &:active {
+          transform: scale(0.6) translateX(-80px); // Giữ kích thước và vị trí khi click (có thể điều chỉnh nếu cần)
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Giảm hiệu ứng đổ bóng khi click
+        }
+      }
+
+      i {
+        font-size: 25px;
+        color: grey;
+        cursor: pointer;
+      }
+    }
+    .center-content {
+      width: 100%;
+      padding: 0 1rem;
+      margin: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+
+      .child-content {
+        cursor: pointer;
+        padding: 0.5rem;
+        margin: 0 2rem;
+        transition: all 0.1s ease; // Thêm hiệu ứng chuyển tiếp cho tất cả các thuộc tính
+
+        &:hover {
+          // Hiệu ứng khi hover
+          background-color: #f0f0f0; // Thay đổi màu nền khi hover
+          transform: scale(1.02); // Tăng kích thước nhẹ khi hover
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Thêm hiệu ứng đổ bóng
+        }
+
+        &:active {
+          // Hiệu ứng khi click
+          background-color: #e0e0e0; // Thay đổi màu nền khi click
+          transform: scale(0.98); // Giảm kích thước nhẹ khi click
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); // Hiệu ứng đổ bóng khi click
+        }
+
+        .subs-title {
+          font-weight: 400;
+          font-size: 12px;
+          transition: color 0.3s ease; // Thêm hiệu ứng chuyển tiếp cho thuộc tính color
+
+          &:hover {
+            // Hiệu ứng khi hover trên tiêu đề
+            color: #3498db; // Thay đổi màu chữ khi hover
+          }
+        }
+      }
+    }
+    .right-content {
+      padding: 0 1rem;
+      width: 15rem;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1rem;
+
+      .language-vi {
+        cursor: pointer;
+        opacity: 0.5;
+        &.active {
+          opacity: 1;
+          span {
+            color: orangered;
+          }
+        }
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .language-en {
+        opacity: 0.5;
+        cursor: pointer;
+        &.active {
+          opacity: 1;
+
+          span {
+            color: blue;
+          }
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.home-header-banner {
+  background: url("../../assets/header-background.jpg") center center no-repeat;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  .content-up {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(255, 255, 255, 0.15)
+    );
+    height: 100%;
+    padding: 25px;
+    .title1 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    .title2 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    .search {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 60px auto;
+      padding: 10px;
+      border-radius: 25px;
+      background: rgb(233, 218, 20);
+      i {
+        margin: 0 5px;
+      }
+      input {
+        height: 30px;
+        width: 360px;
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .content-down {
+    height: 35%;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 1)
+    );
+    .options {
+      text-align: center;
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+      .option-child {
+        width: 100px;
+
+        .icon-child {
+          background: rgb(59, 59, 59);
+          width: 40px;
+          height: 40px;
+          padding: 10px;
+          border-radius: 50%;
+          text-align: center;
+          margin: 0px auto;
+          i {
+            color: #49bce2;
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+        .text-child {
+          font-size: 16px;
+          font-weight: 500;
+          cursor: pointer;
+          &:hover {
+            color: #49bce2;
+          }
+        }
+      }
+    }
+  }
+}

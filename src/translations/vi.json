@@ -1,0 +1,129 @@
+{
+  "homeheader": {
+    "speciality": "Chuyên khoa",
+    "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
+    "health-facility": "Cơ sở y tế",
+    "select-room": "Chọn bệnh viện hoặc phòng khám",
+    "doctor": "Bác sĩ",
+    "select-doctor": "Chọn bác sĩ giỏi",
+    "Handbook": "Cẩm nang",
+    "general-health-check": "Kiến thức sơ cứu",
+    "Support": "Hỗ trợ",
+    "welcome": "Xin chào"
+  },
+  "banner": {
+    "medical-foundation": "NỀN TẢNG Y TẾ",
+    "comprehensive-health-care": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+    "specialized-examination": "Khám chuyên khoa",
+    "remote-examination": "Khám từ xa",
+    "general-examination": "Khám tổng quát",
+    "medical-tests": "Xét nghiệm y học",
+    "spiritual-health": "Sức khỏe tin thần",
+    "dental-examination": "Khám nha khoa"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "Người dùng hệ thống",
+      "manage-doctor": "Quản lý bác sĩ",
+      "manage-admin": "Quản lý admin",
+      "crud": "CRUD user",
+      "crud-redux": "Quản lý người dùng",
+      "clinic": "Phòng khám",
+      "manage-clinic": "Quản lý phòng khám",
+      "specialty": "Chuyên khoa",
+      "manage-specialty": "Quản lý chuyên khoa",
+      "handbook": "Cẩm nang",
+      "manage-handbook": "Quản lý cẩm nang"
+    },
+    "doctor": {
+      "manage-schedule": "Quản lý lịch khám bệnh",
+      "manage-patient": "Quản lý bệnh nhân khám bệnh",
+
+      "manage-medical-records": "Quản lý bệnh án"
+    }
+  },
+  "manage-user": {
+    "add": "Thêm mới người dùng",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "first-name": "Tên",
+    "last-name": "Họ",
+    "phone-number": "Số điện thoại",
+    "address": "Địa chỉ",
+    "gender": "Giới tính",
+    "position": "Chức danh",
+    "role": "Vai trò",
+    "image": "Ảnh đại diện",
+    "save": "Lưu người dùng",
+    "edit": "Lưu thay đổi"
+  },
+  "homepage": {
+    "outstanding-doctor": "Bác sĩ xuất sắc",
+    "see-more": "Xem thêm",
+    "popular-specialties": "Chuyên khoa phổ biến"
+  },
+
+  "manage-schedule": {
+    "title": "Quản lý lịch khám bệnh của bác sĩ",
+    "choose-doctor": "Chọn bác sĩ",
+    "choose-date": "Chọn ngày",
+    "save": "Lưu thông tin"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Lịch khám",
+      "no-schedule": "Bác sĩ không có lịch hẹn trong thời gian này, vui lòng chọn thời gian khác !",
+      "choose": "Chọn",
+      "book-free": "và đặt (miễn phí)"
+    },
+    "extra-infor-doctor": {
+      "text-address": "ĐỊA CHỈ KHÁM : ",
+      "examination-prices": "Giá khám : ",
+      "text-payment": "Người bệnh có thể thanh toán chi phí bằng hình thức : ",
+      "view-detail": "Xem chi tiết",
+      "collapse": "Thu gọn"
+    },
+    "booking-modal": {
+      "title": "Thông tin đặt lệnh khám bệnh",
+      "full-name": "Họ & Tên :",
+      "email": "Địa chỉ Email :",
+      "reason": "Lý do khám bệnh :",
+      "phone-number": "Số điện thoại :",
+      "address": "Địa chỉ liên hệ : ",
+      "birthday": "Ngày sinh :",
+      "gender": "Giới tính :",
+      "confirm": "Xác nhận",
+      "cancel": "Hủy",
+      "free-booking": "(Miễn phí đặt lịch)"
+    },
+    "letter-booking": {
+      "title": "XÁC NHẬN LỊCH HẸN THÀNH CÔNG TỪ BOOKING DOCTOR !",
+      "p1": "Chúng tôi xin chân thành cảm ơn bạn đã chọn dịch vụ của BookingDoctor để đáp ứng nhu cầu y tế của mình. Sự tin tưởng và hỗ trợ của bạn là động lực lớn nhất giúp chúng tôi không ngừng cải thiện và phát triển.",
+      "p2": "Tại Booking Doctor, chúng tôi luôn cam kết cung cấp dịch vụ chất lượng cao nhất để đảm bảo bạn có trải nghiệm tốt nhất. Chúng tôi rất vui mừng khi biết rằng dịch vụ của chúng tôi đã đáp ứng được kỳ vọng của bạn.",
+      "p3": "Nếu bạn có bất kỳ câu hỏi, ý kiến hoặc phản hồi nào, xin vui lòng liên hệ với chúng tôi qua email bookingdoctor.com hoặc số điện thoại 0705010562. Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn.",
+      "p4": "Một lần nữa, xin chân thành cảm ơn sự tin tưởng và ủng hộ của bạn. Chúng tôi mong được tiếp tục phục vụ bạn trong tương lai và chúc bạn sức khỏe và hạnh phúc !"
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Tạo thêm thông tin bác sĩ",
+      "choose-doctor": "Chọn bác sĩ ",
+      "about-us": "Thông tin giới thiệu ",
+      "btn-create-infor": "Tạo thông tin",
+      "btn-save-infor": "Lưu thông tin",
+      "choose-price": "Chọn giá ",
+      "choose-payment": "Chọn phương thức thanh toán  ",
+      "choose-province": "Chọn tỉnh thành  ",
+      "clinic-name": "Tên phòng khám ",
+      "clinic-address": "Địa chỉ phòng khám ",
+      "note": "Ghi chú ",
+      "choose-speciality": "Chọn chuyên khoa",
+      "choose-clinic": "Chọn phòng khám"
+    }
+  },
+  "detail-doctor": {
+    "full-name": "Họ & Tên : ",
+    "hometown": "Quê quán : ",
+    "title": "Chức danh : "
+  }
+}

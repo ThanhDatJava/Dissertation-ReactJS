@@ -1,0 +1,42 @@
+/* src/App.css */
+
+.App-header {
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 100px 20%;
+
+  background: radial-gradient(ellipse at bottom, #7fa3cf 0%, #4560e4 100%);
+  overflow: hidden;
+
+  .main-content {
+    @mixin sp-layout {
+      @media screen and (max-width: 750px) {
+        @content;
+      }
+    }
+
+    @function random_range($min, $max) {
+      $rand: random();
+      $random_range: $min + floor($rand * (($max - $min) + 1));
+      @return $random_range;
+    }
+
+    .letter {
+      h2 {
+        text-align: center;
+        margin-top: 10px;
+      }
+      p {
+        margin: 15px 20px;
+        line-height: 1.6;
+      }
+      a {
+        color: #b5b5b5;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
